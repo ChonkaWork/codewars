@@ -1,7 +1,6 @@
 package seven;
 
 public class RemoveTheMinimum {
-
     public static int[] removeSmallest(int[] numbers) {
         if (numbers.length <= 1) {
             return new int[0];
